@@ -10,6 +10,10 @@
 4. 数字と同じ個数のりんごのカードをタップ
 5. 正解すると ○（ピンポン音）、不正解だと ×（ブー音）が表示されます
 
+## プレイ
+
+https://yt4318.github.io/apple-number-kids/
+
 ## クレジット
 
 - 効果音: [OtoLogic](https://otologic.jp/)
