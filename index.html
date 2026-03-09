@@ -32,18 +32,18 @@ body {
 #choices {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  max-width: 380px;
+  gap: 14px;
+  max-width: 440px;
   margin: 0 auto;
 }
 .choice-btn {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 4px;
-  font-size: min(10vw, 44px);
+  gap: 6px;
+  font-size: min(12vw, 52px);
   font-weight: bold;
-  padding: 10px 8px;
+  padding: 14px 10px;
   border: 4px solid #f5a623;
   border-radius: 20px;
   background: #fff;
@@ -67,8 +67,8 @@ body {
   gap: 1px;
 }
 .choice-apples img {
-  width: min(6vw, 24px);
-  height: min(6vw, 24px);
+  width: min(9vw, 36px);
+  height: min(9vw, 36px);
 }
 #overlay {
   position: fixed;
@@ -188,7 +188,7 @@ function buildDice(count, cls) {
   }
   container.appendChild(row2);
   if (isOdd) {
-    row1.style.paddingLeft = 'calc((min(6vw, 24px) + 1px) / 2)';
+    row1.style.paddingLeft = 'calc((min(9vw, 36px) + 1px) / 2)';
   }
   return container;
 }
