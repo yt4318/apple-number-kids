@@ -230,12 +230,12 @@ function checkAnswer(selected) {
     overlay.textContent = '○';
     overlay.style.color = 'red';
     correctSound.currentTime = 0;
-    correctSound.play();
+    correctSound.play().catch(function() { correctSound.play(); });
   } else {
     overlay.textContent = '×';
     overlay.style.color = 'blue';
     wrongSound.currentTime = 0;
-    wrongSound.play();
+    wrongSound.play().catch(function() { wrongSound.play(); });
   }
 
   overlay.style.display = 'flex';
