@@ -33,7 +33,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 14px;
-  max-width: 440px;
+  max-width: 400px;
   margin: 0 auto;
 }
 .choice-btn {
@@ -67,8 +67,8 @@ body {
   gap: 1px;
 }
 .choice-apples img {
-  width: min(9vw, 36px);
-  height: min(9vw, 36px);
+  width: min(7vw, 28px);
+  height: min(7vw, 28px);
 }
 #overlay {
   position: fixed;
@@ -188,7 +188,7 @@ function buildDice(count, cls) {
   }
   container.appendChild(row2);
   if (isOdd) {
-    row1.style.paddingLeft = 'calc((min(9vw, 36px) + 1px) / 2)';
+    row1.style.paddingLeft = 'calc((min(7vw, 28px) + 1px) / 2)';
   }
   return container;
 }
